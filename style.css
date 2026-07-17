@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    
+  
+
+    height: 100vh;
+}
+
+#loginBox {
+    width: 350px;
+    height: 400px;
+    margin-top: 15vh;
+    padding: 5vh;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    border-radius: 10px;
+    text-align: center;
+    align-self:center;
+    
+}
+.loginBox div {
+    margin: 20px;
+    color: #333;
+    
+}
+
+#mainBody {
+    display: none;
+}
+
+
+#topBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 20px;
+    background-color: #8b5d08;
+    position: fixed;
+    z-index: 1000px;
+    width: 100%;
+}
